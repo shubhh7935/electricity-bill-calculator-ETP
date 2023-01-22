@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Electricity Bill</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="body">
+    <h1>Electricity Bill Calculator</h1>
+    <p>Enter Full Name</p>
+    <input type="text" id="name" placeholder="Name here"><br>
+
+    <p>Enter Month and Year: </p>
+    <input type="month" id="month" placeholder="Month">
+    <br>
+
+    <p>Enter the number of units consumed:</p>
+    <input type="number" id="units"><br>
+
+    <p>Cost per unit: </p>
+    <input type="number" id="cost">
+    <br>
+
+    <button onclick="CalculateBill()"> Calculate my Bill</button>
+    <p id="result"></p>
+  </div>
+</body>
+</html>
